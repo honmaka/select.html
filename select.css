@@ -1,0 +1,118 @@
+/*select.css*/
+body {
+	background-image: url("/images/image02.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.btn-primary {
+	border-radius: 0px;
+	padding: 8px 32px;
+	background: #000;
+	border-color: #000;
+	opacity: 10;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.btn-primary:hover {
+	border-radius: 0px;
+	padding: 8px 32px;
+	background: #000;
+	border-color: #000;
+	opacity: 10;
+	color: #fff;
+	text-align: center;
+}
+
+.btn-primary:disabled {
+	background: #000;
+	border-color: #000;
+	opacity: 10;
+	color: #fff;
+	text-align: center;
+}
+
+.btn-secondary {
+	background: transparent;
+	border: transparent 1px solid;
+	opacity: 10;
+	color: transparent;
+	text-align: bottom;
+	border-radius: 0px;
+	height: 168px;
+	width: 168px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.h1 border-0 rounded-circle {
+	border-radius: 50%;
+}
+.btn-secondary:hover {
+	background: transparent;
+	color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: #2ee020 5px solid;
+	border-radius: 5px;
+}
+.btn-secondary:focus {
+	display: flex;
+	background: transparent;
+	color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: #2ee020 5px solid;
+	border-radius: 5px;
+	background-image: url("/images/checked.png");
+	width: 168px;
+	height: 168px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.row {
+	display: inline-flex;
+}
+#c1 {
+	background-image: url("/assets/game-ui/01.png");
+	background-repeat: no-repeat;
+	background-size: 130px;
+	background-position: 50% 80%;
+}
+#c2 {
+	background-image: url("/assets/game-ui/03.png");
+	background-repeat: no-repeat;
+	background-size: 130px;
+	background-position: 50% 80%;
+}
+#c3 {
+	background-image: url("/assets/game-ui/02.png");
+	background-repeat: no-repeat;
+	background-size: 130px;
+	background-position: 50% 80%;
+}
+#c4 {
+	background-image: url("/assets/game-ui/04.png");
+	background-repeat: no-repeat;
+	background-size: 130px;
+	background-position: 50% 80%;
+}
+.playerId {
+	width: 25%;
+}
+
+@media screen and (max-width: 1024px) {
+	body {
+		background-image: url("/images/image04.png") !important;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: cover;
+		width: 100%;
+		height: 100vh;
+	}
+}

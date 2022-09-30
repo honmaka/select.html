@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>カルテッドダンジョン せんたく</title>
+		<link rel="stylesheet" href="/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/css/selectPlayer.css" />
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/bundle.js"></script>
+		<meta name="theme-color" content="#7952b3" />
+	</head>
+	<body>
+		<main class="container">
+			<div class="text-center py-5 px-3">
+				<h1 class="mt-4">勇者の姿を選択せよ。</h1>
+			</div>
+			<div class="text-center p-2">
+				<form id="selectPlayerForm">
+					<div id="playerSelector" class="row gx-5 m-4"></div>
+				</form>
+			</div>
+			<div class="text-center p-2">
+				<form id="startPlayForm">
+					<button id="submitBtn" type="submit" class="btn btn-primary">勇者の部屋に入る。</button>
+					<button id="loadingBtn" class="btn btn-primary d-none" type="button" disabled>
+						<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+						ローディング中...
+					</button>
+				</form>
+			</div>
+		</main>
+		<script>
+			new scrap.App().enableAuth().selectPlayer();
+		</script>
+	</body>
+</html>
